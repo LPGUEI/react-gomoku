@@ -2,31 +2,38 @@ import styled from "styled-components";
 import Square from "./Components/Square";
 import useBoard from "./useBoard.js";
 
-const Title = styled.h1`
+const Container = styled.div`
+  font-family: "open sans";
+  font-weight: 300;
+  min-width: 600px;
+`;
+
+const Info = styled.div`
   text-align: center;
+`;
+
+const Title = styled.div`
   font-size: 36px;
 `;
 
 const Message = styled.div`
-  text-align: center;
   font-size: 24px;
 `;
 
 const Button = styled.button`
-  display: flex;
-  margin: 20px auto;
-  border-radius: 3px;
   font-size: 18px;
+  font-family: "open sans";
+  cursor: pointer;
+  margin: 20px auto;
   padding: 8px;
+  border-color: silver;
   border-radius: 5px;
-  background: grey;
-  color: white;
+  background: silver;
+  color: #555;
 `;
 
 const Wrapper = styled.div`
   display: flex;
-  text-align: center;
-  margin: 0 auto;
 `;
 
 const Board = styled.div`
@@ -41,10 +48,12 @@ export default function App() {
   const { board, winner, handlePieceClick, playAgain } = useBoard();
 
   return (
-    <div className="App">
-      <Title>Gomoku</Title>
-      {winner && <Message>The Winner is: {winner}!</Message>}
-      <Button onClick={playAgain}>Play again</Button>
+    <Container>
+      <Info>
+        <Title>Gomoku</Title>
+        {winner && <Message>The Winner is: {winner}!</Message>}
+        <Button onClick={playAgain}>Play again</Button>
+      </Info>
       <Wrapper>
         <Board>
           {board.map((row, rowIndex) => {
@@ -66,6 +75,6 @@ export default function App() {
           })}
         </Board>
       </Wrapper>
-    </div>
+    </Container>
   );
 }

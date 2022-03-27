@@ -6,7 +6,7 @@ const Cell = styled.div`
   width: 30px;
   height: 30px;
   position: relative;
-  box-shadow: 4px 6px #666;
+  box-shadow: 6px 6px silver;
 
   &:before {
     content: "";
