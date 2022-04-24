@@ -20,11 +20,11 @@ A five in a row game with 19 x 19 board. Black plays first and then the white. 
 
 ## **Technology**
 
-* React - Function Components + Hooks + styled-component
+* React - Function Components + Hooks + Styled-component
 
-* Prettier - format code
+* Prettier - Format code
 
-* [gh-pages](https://www.npmjs.com/package/gh-pages) - deployment
+* [gh-pages](https://www.npmjs.com/package/gh-pages) - Deployment
 
 ## The Difficulties I met
 
