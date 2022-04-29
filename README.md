@@ -20,7 +20,7 @@ A five in a row game with 19 x 19 board. Black plays first and then the white. 
 └── utils.js
 ```
 
-## **Technology**
+## Technologies
 
 * React - Function Components + Hooks + Styled-component
 
