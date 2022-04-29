@@ -6,7 +6,7 @@ A five in a row game with 19 x 19 board. Black plays first and then the white. 
 
 - Wrote a React hook to render the interface and manage the game logic.
 
-- Used Prettier Eslint to format codes and deployed in Github Pages.
+- Used Prettier ESLint to format codes and deployed in Github Pages.
 
 ![](https://imgur.com/f2WWFq6.gif)
 
