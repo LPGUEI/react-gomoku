@@ -2,9 +2,9 @@
 
 A five in a row game with 19 x 19 board. Black plays first and then the white. The winner will be the first player to form an unbroken chain of five stones horizontally, vertically, or diagonally.
 
-- Developed a React-based game to learn functional components and define the decision in the game.
-- Built a React hook to render the interface, update React state, and manage the game logic. 
-- Managed code style and quality with Prettier ESLint and deployed in GitHub Pages.
+- Developed a React-based game to learn functional components and how to find the winner.
+- Created a React hook to render the interface, update React state, and manage the game logic. 
+- Managed coding style and quality with Prettier ESLint and deployed in GitHub Pages.
 
 ![](https://imgur.com/f2WWFq6.gif)
 
