@@ -92,5 +92,3 @@ function countTotal(board, currentY, currentX, directionY, directionX) {
 ```
 
 ## The process of how I made it: [Gomoku with React](https://coding-ontheway.coderbridge.io/2022/03/25/gomoku-with-react-en/)
-
-## [Let's play Gomoku](https://christy313.github.io/react-gomoku/)
