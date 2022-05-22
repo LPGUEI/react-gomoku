@@ -1,4 +1,4 @@
-## [Gomoku](https://coding-ontheway.coderbridge.io/2022/03/25/gomoku-with-react-en/)
+## Gomoku
 
 Gomoku is a five-in-a-row game with a 19 x 19 board. Black plays first, and then white. The winner will be the first player to form an unbroken chain of five stones horizontally, vertically, or diagonally.
 
@@ -90,3 +90,5 @@ function countTotal(board, currentY, currentX, directionY, directionX) {
   return total;
 }
 ```
+
+## The process of how I made it: [Gomoku with React](https://coding-ontheway.coderbridge.io/2022/03/25/gomoku-with-react-en/)
