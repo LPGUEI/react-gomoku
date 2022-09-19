@@ -1,6 +1,6 @@
 ## Gomoku
 
-Gomoku is a five-in-a-row game with a 19 x 19 board. Black plays first, and then white. The winner will be the first player to form an unbroken chain of five stones horizontally, vertically, or diagonally.
+A five-in-a-row game with a 19 x 19 board. Black plays first, and then white. The winner will be the first player to form an unbroken chain of five stones horizontally, vertically, or diagonally.
 
 - A React game with hooks
 
@@ -22,13 +22,9 @@ Gomoku is a five-in-a-row game with a 19 x 19 board. Black plays first, and then
 └── utils.js
 ```
 
-## Technologies
+## Stack
 
-- React - Function Components + Hooks + Styled-component
-
-- Prettier - Format code
-
-- [gh-pages](https://www.npmjs.com/package/gh-pages) - Deployment
+- React / Hooks / Styled-component
 
 ## The Difficulties I met
 
