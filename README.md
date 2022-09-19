@@ -2,9 +2,9 @@
 
 Gomoku is a five-in-a-row game with a 19 x 19 board. Black plays first, and then white. The winner will be the first player to form an unbroken chain of five stones horizontally, vertically, or diagonally.
 
-- Developed a React-based game to learn functional components and how to find the winner.
-- Created a React hook to render the interface, update React state, and manage the game logic. 
-- Managed coding style and quality with Prettier ESLint and deployed in GitHub Pages.
+- A React game with hooks
+
+- Game logic to find the winner
 
 ![](https://imgur.com/f2WWFq6.gif)
 
@@ -24,19 +24,19 @@ Gomoku is a five-in-a-row game with a 19 x 19 board. Black plays first, and then
 
 ## Technologies
 
-* React - Function Components + Hooks + Styled-component
+- React - Function Components + Hooks + Styled-component
 
-* Prettier - Format code
+- Prettier - Format code
 
-* [gh-pages](https://www.npmjs.com/package/gh-pages) - Deployment
+- [gh-pages](https://www.npmjs.com/package/gh-pages) - Deployment
 
 ## The Difficulties I met
 
-* Render a 19 x 19 board 
+- Render a 19 x 19 board
 
-  * `Array(19).fill(Array(19).fill(null))` to render a board, I need to be familiar with the standard built-in objects in JavaScript, and `useState` for the board initialization.
+  - `Array(19).fill(Array(19).fill(null))` to render a board, I need to be familiar with the standard built-in objects in JavaScript, and `useState` for the board initialization.
 
-  * Understand the structure, and the tiniest component is a square
+  - Understand the structure, and the tiniest component is a square
 
 ```js
 // square → row → board
@@ -64,8 +64,8 @@ export default function App() {
 }
 ```
 
-* The decision of the game
-  * Locate four directions from one spot to count the number of pieces
+- The decision of the game
+  - Locate four directions from one spot to count the number of pieces
 
 ```js
 function countTotal(board, currentY, currentX, directionY, directionX) {
